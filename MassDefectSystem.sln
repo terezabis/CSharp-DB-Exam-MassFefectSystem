@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasDefectSystem.Client", "MasDefectSystem.Client\MasDefectSystem.Client.csproj", "{03A893C5-A321-40B0-AE2F-F09A266AAF6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassDefectSystem.Models", "MassDefectSystem.Models\MassDefectSystem.Models.csproj", "{8B2794DD-BC5B-4570-B744-7762F9A918FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassDefectSystem.Data", "MassDefectSystem.Data\MassDefectSystem.Data.csproj", "{36C4CE4A-BFE8-4D13-A2CC-4CEEBA2F7F4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassDefectSystem.Client.ImportFromJSON", "MassDefectSystem.Client.ImportFromJSON\MassDefectSystem.Client.ImportFromJSON.csproj", "{61937B18-2996-499B-9D25-A095641962BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassDefectSystem.Client.ImportFromXML", "MassDefectSystem.Client.ImportFromXML\MassDefectSystem.Client.ImportFromXML.csproj", "{1542CF8A-1D75-4013-9B51-FA74ABFD04DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassDefectSystem.Client.ExportToJSON", "MassDefectSystem.Client.ExportToJSON\MassDefectSystem.Client.ExportToJSON.csproj", "{68FCF687-0566-475D-9A39-96741FE1B31C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassDefectSystem.Client.ExportToXML", "MassDefectSystem.Client.ExportToXML\MassDefectSystem.Client.ExportToXML.csproj", "{66AEDB6E-E2E8-4BFB-BC91-9F8CB8C803DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03A893C5-A321-40B0-AE2F-F09A266AAF6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03A893C5-A321-40B0-AE2F-F09A266AAF6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03A893C5-A321-40B0-AE2F-F09A266AAF6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03A893C5-A321-40B0-AE2F-F09A266AAF6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B2794DD-BC5B-4570-B744-7762F9A918FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B2794DD-BC5B-4570-B744-7762F9A918FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B2794DD-BC5B-4570-B744-7762F9A918FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B2794DD-BC5B-4570-B744-7762F9A918FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36C4CE4A-BFE8-4D13-A2CC-4CEEBA2F7F4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36C4CE4A-BFE8-4D13-A2CC-4CEEBA2F7F4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36C4CE4A-BFE8-4D13-A2CC-4CEEBA2F7F4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36C4CE4A-BFE8-4D13-A2CC-4CEEBA2F7F4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61937B18-2996-499B-9D25-A095641962BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61937B18-2996-499B-9D25-A095641962BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61937B18-2996-499B-9D25-A095641962BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61937B18-2996-499B-9D25-A095641962BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1542CF8A-1D75-4013-9B51-FA74ABFD04DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1542CF8A-1D75-4013-9B51-FA74ABFD04DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1542CF8A-1D75-4013-9B51-FA74ABFD04DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1542CF8A-1D75-4013-9B51-FA74ABFD04DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68FCF687-0566-475D-9A39-96741FE1B31C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68FCF687-0566-475D-9A39-96741FE1B31C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68FCF687-0566-475D-9A39-96741FE1B31C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68FCF687-0566-475D-9A39-96741FE1B31C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66AEDB6E-E2E8-4BFB-BC91-9F8CB8C803DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66AEDB6E-E2E8-4BFB-BC91-9F8CB8C803DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66AEDB6E-E2E8-4BFB-BC91-9F8CB8C803DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66AEDB6E-E2E8-4BFB-BC91-9F8CB8C803DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
